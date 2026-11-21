@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?><unload unload_date="2026-11-21 09:54:39">
+<sys_remote_update_set action="INSERT_OR_UPDATE">
+<application display_value="Global">global</application>
+<application_name>Global</application_name>
+<application_scope>global</application_scope>
+<application_version/>
+<collisions/>
+<commit_date/>
+<deleted/>
+<description/>
+<inserted/>
+<name>ITSM_Mini_Project_v1</name>
+<origin_sys_id/>
+<parent display_value=""/>
+<release_date/>
+<remote_base_update_set display_value=""/>
+<remote_parent_id/>
+<remote_sys_id>7b5eadbf83a8171044605930ceaad35a</remote_sys_id>
+<state>loaded</state>
+<summary/>
+<sys_class_name>sys_remote_update_set</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-11-21 09:54:37</sys_created_on>
+<sys_id>ddf92e7f8360571044605930ceaad320</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-11-21 09:54:37</sys_updated_on>
+<update_set display_value=""/>
+<update_source display_value=""/>
+<updated/>
+</sys_remote_update_set>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_report_8485026b8320d31044605930ceaad3dc</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_report"><sys_report action="INSERT_OR_UPDATE"><active>true</active><additional_groupby/><aggregate>COUNT</aggregate><aggregation_source>no_override</aggregation_source><allow_data_label_overlap>false</allow_data_label_overlap><apply_alias>false</apply_alias><axis_max_color display_value="UI14 Blue Light">b0d449b3d7332100fa6c0c12ce610383</axis_max_color><axis_min_color display_value="White">65b303c7a9fe3dba00629aff95ee3597</axis_min_color><bar_unstack>false</bar_unstack><calendar/><certified>false</certified><chart_background_color/><chart_border_color/><chart_border_radius>0</chart_border_radius><chart_border_width>1</chart_border_width><chart_height>450</chart_height><chart_size>large</chart_size><chart_subtitle/><chart_subtitle_color/><chart_subtitle_size>14</chart_subtitle_size><chart_subtitle_style>normal</chart_subtitle_style><chart_title/><chart_title_color display_value="Black">65b30218a9fe3dba0120df8611520d97</chart_title_color><chart_title_size>16</chart_title_size><chart_title_style>normal</chart_title_style><chart_title_x_position>0</chart_title_x_position><chart_title_y_position>0</chart_title_y_position><chart_width>600</chart_width><color display_value="Default Color">de699435d7033100b4964ebfae610331</color><color_palette display_value="Default UI14">aa558ab3d7732100fa6c0c12ce610377</color_palette><colors/><column/><compute_percent>aggregate</compute_percent><content/><created_by_user display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</created_by_user><custom_chart_size>false</custom_chart_size><custom_chart_title_position>false</custom_chart_title_position><custom_config>{"transforms":[{"transform":{"transform":"Reference","name":"chart-subjects"}}]}</custom_config><decimal_precision>2</decimal_precision><description/><direction>minimize</direction><display_column_lines>false</display_column_lines><display_grid>false</display_grid><display_row_lines>false</display_row_lines><donut_width_percent>30</donut_width_percent><end_time/><exp_report_attrs>true</exp_report_attrs><field>assignment_group</field><field_list>number,opened_at,short_description,caller_id,priority,state,category,assignment_group,assigned_to,sys_updated_on,sys_updated_by</field_list><filter/><formatting_configuration>{"table":"incident","stringFormattingProperties":{},"durationFormattingProperties":{},"dateFormattingProperties":{},"numberFormattingProperties":{}}</formatting_configuration><from/><funnel_neck_percent>30</funnel_neck_percent><gauge_autoscale>true</gauge_autoscale><group/><import_table/><interval>year</interval><is_published>false</is_published><is_real_time>false</is_real_time><is_scheduled>false</is_scheduled><legend_align_columns>true</legend_align_columns><legend_background_color/><legend_border_color/><legend_border_radius>0</legend_border_radius><legend_border_width>1</legend_border_width><legend_horizontal_alignment>center</legend_horizontal_alignment><legend_items_left_align>false</legend_items_left_align><legend_vertical_alignment>bottom</legend_vertical_alignment><list_ui_view/><location_field/><lower_limit/><macroponent/><map display_value="World">93b8a3a2d7101200bd4a4ebfae61033a</map><map_source/><name>Active Incidents by Assignment Group</name><no_bulk_migration>false</no_bulk_migration><orderby_list/><other_threshold>-2</other_threshold><others>true</others><page_hdrftr/><pivot_expanded>true</pivot_expanded><properties/><report_drilldown/><report_source/><requested_by/><required_translations/><roles/><row/><sc_groupby_item_id/><sc_groupby_variable_id/><sc_stackby_item_id/><sc_stackby_variable_id/><score_color display_value="Black">65b30218a9fe3dba0120df8611520d97</score_color><series_name_text/><set_color>one_color</set_color><show_chart_border>false</show_chart_border><show_chart_data_label>true</show_chart_data_label><show_chart_title>report</show_chart_title><show_chart_total>false</show_chart_total><show_data_label_position_middle>false</show_data_label_position_middle><show_empty>false</show_empty><show_geographical_label>false</show_geographical_label><show_legend>true</show_legend><show_legend_border>false</show_legend_border><show_marker>false</show_marker><show_zero>false</show_zero><source_type>table</source_type><start_time/><style_config/><sumfield/><sys_class_name>sys_report</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-11-20 12:36:51</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>global</sys_domain_path><sys_id>8485026b8320d31044605930ceaad3dc</sys_id><sys_mod_count>4</sys_mod_count><sys_name>Active Incidents by Assignment Group</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_report_8485026b8320d31044605930ceaad3dc</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-11-21 06:01:01</sys_updated_on><table>incident</table><title>Active Incidents by Assignment Group</title><title_horizontal_alignment>center</title_horizontal_alignment><title_vertical_alignment>top</title_vertical_alignment><to/><trend_field/><type>bar</type><upper_limit/><use_color_heatmap>false</use_color_heatmap><use_null_in_trend>false</use_null_in_trend><user>6816f79cc0a8016401c5a33be04be441</user><x_axis_allow_decimals>true</x_axis_allow_decimals><x_axis_display_grid>false</x_axis_display_grid><x_axis_grid_color display_value="LightGrey">65b30308a9fe3dba01ebaa03e87e7cd3</x_axis_grid_color><x_axis_grid_dotted>false</x_axis_grid_dotted><x_axis_grid_width>1</x_axis_grid_width><x_axis_label_bold>false</x_axis_label_bold><x_axis_label_color/><x_axis_label_size>11</x_axis_label_size><x_axis_label_tilt>0</x_axis_label_tilt><x_axis_opposite>false</x_axis_opposite><x_axis_title/><x_axis_title_bold>true</x_axis_title_bold><x_axis_title_color display_value="Black">65b30218a9fe3dba0120df8611520d97</x_axis_title_color><x_axis_title_size>12</x_axis_title_size><y_axis_allow_decimals>true</y_axis_allow_decimals><y_axis_display_grid>true</y_axis_display_grid><y_axis_from/><y_axis_grid_color display_value="LightGrey">65b30308a9fe3dba01ebaa03e87e7cd3</y_axis_grid_color><y_axis_grid_dotted>false</y_axis_grid_dotted><y_axis_grid_width>1</y_axis_grid_width><y_axis_label_bold>false</y_axis_label_bold><y_axis_label_color/><y_axis_label_size>11</y_axis_label_size><y_axis_label_tilt>0</y_axis_label_tilt><y_axis_opposite>false</y_axis_opposite><y_axis_title/><y_axis_title_bold>true</y_axis_title_bold><y_axis_title_color display_value="Black">65b30218a9fe3dba0120df8611520d97</y_axis_title_color><y_axis_title_size>12</y_axis_title_size><y_axis_to/></sys_report></record_update>]]></payload>
+<payload_hash>-274544110</payload_hash>
+<remote_update_set display_value="ITSM_Mini_Project_v1">ddf92e7f8360571044605930ceaad320</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-11-21 09:54:38</sys_created_on>
+<sys_id>25f92e7f8360571044605930ceaad323</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a1fcb19ded0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-11-21 09:54:38</sys_updated_on>
+<table>incident</table>
+<target_name>Active Incidents by Assignment Group</target_name>
+<type>Report</type>
+<update_domain>global</update_domain>
+<update_guid>5f7475bb95e81710c2c3df3f02e4a27b</update_guid>
+<update_guid_history>5f7475bb95e81710c2c3df3f02e4a27b:-274544110,317435bb37e81710620373d0835dd478:2063335105,27e6ceebd420d310f2776f7a4a8de480:-274544110,c885866bb420d3108271bb5d3b765f7e:-1245369207,0485866b7b20d3102284e779a2c73f79:-274544110,cc85866b7220d310aaff0f27603cde74:-1245369207</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>contract_sla_69730a678320d31044605930ceaad392</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="contract_sla"><contract_sla action="INSERT_OR_UPDATE"><active>true</active><adv_condition_type>none</adv_condition_type><cancel_condition/><collection>incident</collection><condition_class/><duration>1970-01-01 04:00:00</duration><duration_type/><enable_logging>false</enable_logging><flow display_value="Default SLA flow">828f267973333300e289235f04f6a7a3</flow><name>Network Team Resolution SLA (4Hours)</name><pause_condition table="incident">state=3^EQ<item display_value="On Hold" endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="3"/><item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/></pause_condition><relative_duration_works_on>Task record</relative_duration_works_on><reset_action>cancel</reset_action><reset_condition/><resume_condition/><retroactive>false</retroactive><retroactive_pause>true</retroactive_pause><schedule display_value="8-5 weekdays">08fcd0830a0a0b2600079f56b1adb9ae</schedule><schedule_source>sla_definition</schedule_source><schedule_source_field/><set_start_to/><start_condition table="incident">assignment_group=6c83bcaf83a4931044605930ceaad376^active=true^EQ<item display_table="sys_user_group" display_value="Network Engineering" endquery="false" field="assignment_group" goto="false" newquery="false" operator="=" or="false" value="6c83bcaf83a4931044605930ceaad376"/><item endquery="false" field="active" goto="false" newquery="false" operator="=" or="false" value="true"/><item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/></start_condition><stop_condition table="incident">stateIN7^ORstateIN6^EQ<item display_value="Closed" endquery="false" field="state" goto="false" newquery="false" operator="IN" or="false" value="7"/><item display_value="Resolved" endquery="false" field="state" goto="false" newquery="false" operator="IN" or="true" value="6"/><item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/></stop_condition><sys_class_name>contract_sla</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-11-20 12:31:32</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>69730a678320d31044605930ceaad392</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Network Team Resolution SLA (4Hours)</sys_name><sys_overrides/><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>contract_sla_69730a678320d31044605930ceaad392</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-11-21 05:41:50</sys_updated_on><target>resolution</target><timezone/><timezone_source>task.caller_id.time_zone</timezone_source><type>SLA</type><vendor/><when_to_cancel>on_condition</when_to_cancel><when_to_resume>on_condition</when_to_resume><workflow/></contract_sla><sys_translated_text action="delete_multiple" query="documentkey=69730a678320d31044605930ceaad392"/></record_update>]]></payload>
+<payload_hash>519245842</payload_hash>
+<remote_update_set display_value="ITSM_Mini_Project_v1">ddf92e7f8360571044605930ceaad320</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-11-21 09:54:37</sys_created_on>
+<sys_id>99f92e7f8360571044605930ceaad321</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a1fca010f80000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-11-21 09:54:37</sys_updated_on>
+<table>incident</table>
+<target_name>Network Team Resolution SLA (4Hours)</target_name>
+<type>SLA Definition</type>
+<update_domain>global</update_domain>
+<update_guid>a21071b31de81710bb5e987ecf3018c7</update_guid>
+<update_guid_history>a21071b31de81710bb5e987ecf3018c7:519245842,d24402e7e620d310a8c029efa1431369:1503692838</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sysrule_assignment_df41c5ab8328931044605930ceaad3a1</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysrule_assignment"><sysrule_assignment action="INSERT_OR_UPDATE"><active>true</active><condition table="incident">category=^categoryINinquiry^categoryINsoftware^categoryINhardware^EQ<item display_value="-- None --" endquery="false" field="category" goto="false" newquery="false" operator="=" or="false" value=""/><item display_value="Inquiry" endquery="false" field="category" goto="false" newquery="false" operator="IN" or="false" value="inquiry"/><item display_value="Software" endquery="false" field="category" goto="false" newquery="false" operator="IN" or="false" value="software"/><item display_value="Hardware" endquery="false" field="category" goto="false" newquery="false" operator="IN" or="false" value="hardware"/><item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/></condition><description/><group display_value="IT Service Desk" name="IT Service Desk">5cd2f86f83a4931044605930ceaad338</group><match_conditions>ALL</match_conditions><name>Default Route to IT Service Desk</name><order>1000</order><script>/**&#13;
+* Example:&#13;
+* The following script requires personalizing the instance to add the Malware category and the Security assignment group.&#13;
+* if (current.category == "Hardware")&#13;
+*    current.assignment_group.setDisplayValue("Hardware"); &#13;
+* else if (current.category == "Software")&#13;
+*    current.assignment_group.setDisplayValue("Software");&#13;
+* else if (current.category == "Malware")&#13;
+*    current.assignment_group.setDisplayValue("Security");	&#13;
+*&#13;
+* Another Example:&#13;
+* Release Planning Example, which assigns the last person assigned to a release to the current release.&#13;
+* current.release.product.service.assigned_to;&#13;
+*/</script><sys_class_name>sysrule_assignment</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-11-20 07:40:41</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>df41c5ab8328931044605930ceaad3a1</sys_id><sys_mod_count>3</sys_mod_count><sys_name>Default Route to IT Service Desk</sys_name><sys_overrides/><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sysrule_assignment_df41c5ab8328931044605930ceaad3a1</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-11-21 05:40:52</sys_updated_on><table>incident</table><user/></sysrule_assignment></record_update>]]></payload>
+<payload_hash>432020139</payload_hash>
+<remote_update_set display_value="ITSM_Mini_Project_v1">ddf92e7f8360571044605930ceaad320</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-11-21 09:54:38</sys_created_on>
+<sys_id>a9f92e7f8360571044605930ceaad322</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a1fc9f2e7f0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-11-21 09:54:38</sys_updated_on>
+<table>incident</table>
+<target_name>Default Route to IT Service Desk</target_name>
+<type>Assignment Rule</type>
+<update_domain>global</update_domain>
+<update_guid>6cef65f3dca81710b72f91e5fd2be94e</update_guid>
+<update_guid_history>6cef65f3dca81710b72f91e5fd2be94e:432020139,12df29733fe81710124d2377ddb79d3c:-1825939797,e8124debdf28931088319258b633bf34:432020139,31b1892fb2e49310eeb60ceede7ee429:-1170244517</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sysrule_assignment_f7d0c96b8328931044605930ceaad320</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysrule_assignment"><sysrule_assignment action="INSERT_OR_UPDATE"><active>true</active><condition table="incident">category=network^EQ<item display_value="Network" endquery="false" field="category" goto="false" newquery="false" operator="=" or="false" value="network"/><item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/></condition><description/><group display_value="Network Engineering" name="Network Engineering">6c83bcaf83a4931044605930ceaad376</group><match_conditions>ALL</match_conditions><name>Auto-Route Network Incidents </name><order>100</order><script>/**&#13;
+* Example:&#13;
+* The following script requires personalizing the instance to add the Malware category and the Security assignment group.&#13;
+* if (current.category == "Hardware")&#13;
+*    current.assignment_group.setDisplayValue("Hardware"); &#13;
+* else if (current.category == "Software")&#13;
+*    current.assignment_group.setDisplayValue("Software");&#13;
+* else if (current.category == "Malware")&#13;
+*    current.assignment_group.setDisplayValue("Security");	&#13;
+*&#13;
+* Another Example:&#13;
+* Release Planning Example, which assigns the last person assigned to a release to the current release.&#13;
+* current.release.product.service.assigned_to;&#13;
+*/</script><sys_class_name>sysrule_assignment</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-11-20 07:38:14</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>f7d0c96b8328931044605930ceaad320</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Auto-Route Network Incidents </sys_name><sys_overrides/><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sysrule_assignment_f7d0c96b8328931044605930ceaad320</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-11-21 05:39:46</sys_updated_on><table>incident</table><user/></sysrule_assignment></record_update>]]></payload>
+<payload_hash>529330267</payload_hash>
+<remote_update_set display_value="ITSM_Mini_Project_v1">ddf92e7f8360571044605930ceaad320</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-11-21 09:54:38</sys_created_on>
+<sys_id>edf92e7f8360571044605930ceaad322</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a1fc9e2a590000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-11-21 09:54:38</sys_updated_on>
+<table>incident</table>
+<target_name>Auto-Route Network Incidents </target_name>
+<type>Assignment Rule</type>
+<update_domain>global</update_domain>
+<update_guid>5cafa17309e81710f7a59e7673c65bcd</update_guid>
+<update_guid_history>5cafa17309e81710f7a59e7673c65bcd:529330267,712181ab392893100f8c38aaf32829f3:684725011</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+</unload>
